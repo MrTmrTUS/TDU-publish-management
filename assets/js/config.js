@@ -1,6 +1,6 @@
 /* Cấu hình hệ thống — sửa tệp này khi triển khai (xem README.md). */
 window.APP_CONFIG = {
-  APP_NAME: "Điều phối NCKH & công bố quốc tế",
+  APP_NAME: "Theo dõi nghiên cứu & công bố",
   APP_SHORT: "Dashboard NCKH",
   ORG_NAME: "Trường Đại học Thành Đông",
 

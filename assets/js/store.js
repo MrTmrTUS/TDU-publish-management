@@ -1,10 +1,9 @@
 /* Lớp dữ liệu: một giao diện chung cho hai chế độ "static" và "supabase".
-   Bộ sưu tập theo mô hình dữ liệu khái niệm (đặc tả mục 6) + settings (cấu hình ngưỡng, lịch ngày làm việc). */
+   Hai bộ sưu tập: records (hồ sơ nghiên cứu / bản thảo) và supports (yêu cầu hỗ trợ), cộng settings (danh sách khoa, ngưỡng). */
 (function () {
   const CFG = window.APP_CONFIG;
-  const COLLECTIONS = ["units", "people", "providers", "projects", "manuscripts", "workItems",
-    "supports", "submissions", "journals", "publications", "events"];
-  const K_DRAFT = "tdu-nckh:draft", K_SESSION = "tdu-nckh:session", K_PW = "tdu-nckh:pw";
+  const COLLECTIONS = ["records", "supports"];
+  const K_DRAFT = "tdu-nckh2:draft", K_SESSION = "tdu-nckh:session", K_PW = "tdu-nckh:pw";
 
   const empty = () => {
     const d = { meta: { version: 1 }, settings: {} };
