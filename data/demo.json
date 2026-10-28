@@ -1,0 +1,2022 @@
+{
+ "meta": {
+  "version": 3,
+  "demo": true,
+  "note": "Dữ liệu demo giả định."
+ },
+ "settings": {
+  "units": [
+   "Khoa Y – Dược",
+   "Khoa Kinh tế",
+   "Phòng KHCN & HTQT",
+   "Khoa Ngoại ngữ"
+  ],
+  "staleDays": 30,
+  "soonDays": 7,
+  "triageWorkdays": 5,
+  "resubmitDays": 30,
+  "holidays": [
+   "2026-01-01",
+   "2026-02-16",
+   "2026-02-17",
+   "2026-02-18",
+   "2026-02-19",
+   "2026-02-20",
+   "2026-04-27",
+   "2026-04-30",
+   "2026-05-01",
+   "2026-08-31",
+   "2026-09-01",
+   "2026-09-02"
+  ],
+  "supportTypes": [
+   {
+    "code": "y_tuong",
+    "label": "Phát triển ý tưởng",
+    "needsCard": false
+   },
+   {
+    "code": "de_cuong",
+    "label": "Hoàn thiện đề cương",
+    "needsCard": false
+   },
+   {
+    "code": "thong_ke",
+    "label": "Thống kê – phân tích",
+    "needsCard": true
+   },
+   {
+    "code": "dao_duc",
+    "label": "Đạo đức – dữ liệu",
+    "needsCard": false
+   },
+   {
+    "code": "viet_bai",
+    "label": "Viết bản thảo",
+    "needsCard": false
+   },
+   {
+    "code": "phan_bien",
+    "label": "Phản biện nội bộ",
+    "needsCard": false
+   },
+   {
+    "code": "tieng_anh",
+    "label": "Hiệu đính tiếng Anh",
+    "needsCard": true
+   },
+   {
+    "code": "tap_chi",
+    "label": "Lựa chọn tạp chí",
+    "needsCard": false
+   },
+   {
+    "code": "tra_loi",
+    "label": "Trả lời phản biện",
+    "needsCard": false
+   },
+   {
+    "code": "nop_lai",
+    "label": "Nộp lại sau từ chối",
+    "needsCard": false
+   }
+  ]
+ },
+ "users": [
+  {
+   "id": "u-admin",
+   "email": "admin@tdu.example",
+   "name": "ThS. Đỗ Hải Yến",
+   "degree": "ThS.",
+   "title": "Chuyên viên Phòng KHCN",
+   "unit": "Phòng KHCN & HTQT",
+   "phone": "0912 000 001",
+   "orcid": "",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Quản lý khoa học",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "quan_tri"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z",
+   "demo": true,
+   "demoLabel": "Quản trị viên (Phòng KHCN)"
+  },
+  {
+   "id": "u-dp",
+   "email": "dieuphoi@tdu.example",
+   "name": "TS. Lý Gia Huy",
+   "degree": "TS.",
+   "title": "Phó trưởng Phòng KHCN",
+   "unit": "Phòng KHCN & HTQT",
+   "phone": "",
+   "orcid": "0000-0002-1825-0097",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Dược lý",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "dieu_phoi",
+    "giang_vien"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z",
+   "demo": true,
+   "demoLabel": "Điều phối viên"
+  },
+  {
+   "id": "u-ld",
+   "email": "lanhdao@tdu.example",
+   "name": "PGS.TS. Mai Đình Toàn",
+   "degree": "PGS.TS.",
+   "title": "Phó Hiệu trưởng",
+   "unit": "Phòng KHCN & HTQT",
+   "phone": "",
+   "orcid": "",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Kinh tế phát triển",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "lanh_dao"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z",
+   "demo": true,
+   "demoLabel": "Lãnh đạo (Phó Hiệu trưởng)"
+  },
+  {
+   "id": "u-ha",
+   "email": "giangvien@tdu.example",
+   "name": "TS. Nguyễn Thu Hà",
+   "degree": "TS.",
+   "title": "Giảng viên",
+   "unit": "Khoa Y – Dược",
+   "phone": "0912 000 004",
+   "orcid": "0000-0001-5109-3700",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Y tế công cộng; Dịch tễ học",
+   "bio": "Nghiên cứu tuân thủ điều trị bệnh mạn tính tại tuyến cơ sở.",
+   "publications": "Nguyễn T.H. và cs. (2025). Giáo dục sức khỏe cho người bệnh đái tháo đường type 2. Heliyon (giả định).\nNguyễn T.H. (2024). Tuân thủ điều trị tăng huyết áp tại trạm y tế xã. Tạp chí Y học Việt Nam (giả định).",
+   "roles": [
+    "giang_vien"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z",
+   "demo": true,
+   "demoLabel": "Giảng viên – chủ nhiệm đề tài"
+  },
+  {
+   "id": "u-son",
+   "email": "hotro@tdu.example",
+   "name": "TS. Bùi Thanh Sơn",
+   "degree": "TS.",
+   "title": "Chuyên gia thống kê",
+   "unit": "Phòng KHCN & HTQT",
+   "phone": "",
+   "orcid": "",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Thống kê y sinh; Mô hình hồi quy",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "giang_vien"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z",
+   "demo": true,
+   "demoLabel": "Người hỗ trợ (thống kê)"
+  },
+  {
+   "id": "u-duc",
+   "email": "duc@tdu.example",
+   "name": "ThS. Trần Minh Đức",
+   "degree": "ThS.",
+   "title": "",
+   "unit": "Khoa Y – Dược",
+   "phone": "",
+   "orcid": "",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Dược lâm sàng",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "giang_vien"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+   "id": "u-hong",
+   "email": "hong@tdu.example",
+   "name": "TS. Lê Thị Hồng",
+   "degree": "TS.",
+   "title": "",
+   "unit": "Khoa Y – Dược",
+   "phone": "",
+   "orcid": "",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Điều dưỡng; Giáo dục y khoa",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "giang_vien"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+   "id": "u-bao",
+   "email": "bao@tdu.example",
+   "name": "PGS.TS. Đặng Quốc Bảo",
+   "degree": "PGS.TS.",
+   "title": "",
+   "unit": "Khoa Y – Dược",
+   "phone": "",
+   "orcid": "",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Phương pháp nghiên cứu lâm sàng",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "giang_vien"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+   "id": "u-lananh",
+   "email": "lananh@tdu.example",
+   "name": "TS. Hoàng Lan Anh",
+   "degree": "TS.",
+   "title": "",
+   "unit": "Khoa Kinh tế",
+   "phone": "",
+   "orcid": "0000-0003-1415-9269",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Marketing; Hành vi người tiêu dùng",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "giang_vien"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+   "id": "u-khoa",
+   "email": "khoa@tdu.example",
+   "name": "ThS. Phạm Văn Khoa",
+   "degree": "ThS.",
+   "title": "",
+   "unit": "Khoa Kinh tế",
+   "phone": "",
+   "orcid": "",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Tài chính ngân hàng",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "giang_vien"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+   "id": "u-men",
+   "email": "men@tdu.example",
+   "name": "ThS. Vũ Thị Mến",
+   "degree": "ThS.",
+   "title": "",
+   "unit": "Khoa Kinh tế",
+   "phone": "",
+   "orcid": "",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Kế toán",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "giang_vien"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+   "id": "u-bich",
+   "email": "bich@tdu.example",
+   "name": "TS. Cao Ngọc Bích",
+   "degree": "TS.",
+   "title": "",
+   "unit": "Khoa Kinh tế",
+   "phone": "",
+   "orcid": "",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Quản trị kinh doanh",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "giang_vien"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+   "id": "u-phuong",
+   "email": "phuong@tdu.example",
+   "name": "ThS. Ngô Mai Phương",
+   "degree": "ThS.",
+   "title": "",
+   "unit": "Khoa Ngoại ngữ",
+   "phone": "",
+   "orcid": "",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Biên tập tiếng Anh học thuật",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "giang_vien"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+   "id": "u-vinh",
+   "email": "vinh@tdu.example",
+   "name": "ThS. Tạ Quang Vinh",
+   "degree": "ThS.",
+   "title": "",
+   "unit": "Khoa Y – Dược",
+   "phone": "",
+   "orcid": "",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "Y học dự phòng",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "giang_vien"
+   ],
+   "status": "active",
+   "createdAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+   "id": "u-moi",
+   "email": "nguyenvanmoi@tdu.example",
+   "name": "ThS. Nguyễn Văn Mới",
+   "degree": "ThS.",
+   "title": "",
+   "unit": "Khoa Kinh tế",
+   "phone": "",
+   "orcid": "",
+   "scopusId": "",
+   "scholarUrl": "",
+   "fields": "",
+   "bio": "",
+   "publications": "",
+   "roles": [
+    "giang_vien"
+   ],
+   "status": "pending",
+   "createdAt": "2026-10-27T09:00:00.000Z"
+  }
+ ],
+ "passwords": {
+  "admin@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "dieuphoi@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "lanhdao@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "giangvien@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "hotro@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "duc@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "hong@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "bao@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "lananh@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "khoa@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "men@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "bich@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "phuong@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "vinh@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e",
+  "nguyenvanmoi@tdu.example": "3c37bd765be6aedb9afe3e3a57bce1ff4f8e54e1c488b5e6ecbcc83652dca75e"
+ },
+ "supporters": [
+  {
+   "readers": [],
+   "id": "sp-u-son",
+   "userId": "u-son",
+   "types": [
+    "thong_ke"
+   ],
+   "expertise": "Hồi quy logistic, mô hình hỗn hợp, PLS-SEM; 12 bài Scopus về y tế công cộng (giả định).",
+   "capacity": 3,
+   "conditions": "Có đề cương và bộ dữ liệu đã làm sạch",
+   "status": "da_duyet",
+   "registeredAt": "2026-07-30",
+   "approvedAt": "2026-08-01"
+  },
+  {
+   "readers": [],
+   "id": "sp-u-bao",
+   "userId": "u-bao",
+   "types": [
+    "y_tuong",
+    "de_cuong",
+    "tra_loi",
+    "phan_bien"
+   ],
+   "expertise": "Mentor phương pháp nghiên cứu lâm sàng; phản biện cho 3 tạp chí quốc tế.",
+   "capacity": 2,
+   "conditions": "Đăng ký trước 3 ngày",
+   "status": "da_duyet",
+   "registeredAt": "2026-07-30",
+   "approvedAt": "2026-08-01"
+  },
+  {
+   "readers": [],
+   "id": "sp-u-phuong",
+   "userId": "u-phuong",
+   "types": [
+    "tieng_anh"
+   ],
+   "expertise": "Hiệu đính tiếng Anh học thuật, bản thảo ≤ 6.000 từ.",
+   "capacity": 3,
+   "conditions": "Bản thảo đã qua phản biện nội bộ",
+   "status": "da_duyet",
+   "registeredAt": "2026-08-09",
+   "approvedAt": "2026-08-10"
+  },
+  {
+   "readers": [],
+   "id": "sp-u-bich",
+   "userId": "u-bich",
+   "types": [
+    "phan_bien",
+    "tap_chi"
+   ],
+   "expertise": "Phản biện nội bộ khối kinh tế; tư vấn chọn tạp chí Scopus.",
+   "capacity": 1,
+   "conditions": "",
+   "status": "da_duyet",
+   "registeredAt": "2026-08-19",
+   "approvedAt": "2026-08-20"
+  },
+  {
+   "readers": [],
+   "id": "sp-u-vinh",
+   "userId": "u-vinh",
+   "types": [
+    "dao_duc"
+   ],
+   "expertise": "Thư ký Hội đồng đạo đức bệnh viện; hướng dẫn hồ sơ đạo đức.",
+   "capacity": 2,
+   "conditions": "",
+   "status": "cho_duyet",
+   "registeredAt": "2026-10-26"
+  }
+ ],
+ "records": [
+  {
+   "id": "HS-001",
+   "title": "Yếu tố liên quan đến tuân thủ điều trị tăng huyết áp tại trạm y tế xã",
+   "shortTitle": "Tuân thủ điều trị THA",
+   "unit": "Khoa Y – Dược",
+   "group": "Nhóm Y tế công cộng",
+   "ownerId": "u-ha",
+   "memberIds": [
+    "u-duc"
+   ],
+   "status": "phan_tich",
+   "statusSince": "2026-09-23",
+   "createdAt": "2026-08-24",
+   "createdBy": "u-ha",
+   "updatedAt": "2026-10-25",
+   "journal": "",
+   "quartile": "",
+   "nextAction": "Hoàn thiện kế hoạch phân tích cùng chuyên gia thống kê",
+   "due": "2026-11-04",
+   "risk": "",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-001",
+   "note": "",
+   "evidence": [],
+   "history": [
+    {
+     "at": "2026-08-24T09:00:00.000Z",
+     "by": "u-ha",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-09-23T09:00:00.000Z",
+     "by": "u-ha",
+     "text": "Trạng thái: … → Phân tích",
+     "note": ""
+    },
+    {
+     "at": "2026-10-25T09:00:00.000Z",
+     "by": "u-ha",
+     "text": "Việc tiếp theo: Hoàn thiện kế hoạch phân tích cùng chuyên gia thống kê",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-ha",
+    "u-duc",
+    "u-son",
+    "u-phuong"
+   ]
+  },
+  {
+   "id": "HS-002",
+   "title": "Năng lực lâm sàng của sinh viên điều dưỡng năm cuối",
+   "shortTitle": "Năng lực lâm sàng SV ĐD",
+   "unit": "Khoa Y – Dược",
+   "group": "Nhóm Giáo dục y khoa",
+   "ownerId": "u-hong",
+   "memberIds": [],
+   "status": "sua_bai",
+   "statusSince": "2026-09-03",
+   "createdAt": "2026-08-04",
+   "createdBy": "u-hong",
+   "updatedAt": "2026-10-22",
+   "journal": "BMC Medical Education",
+   "quartile": "Q1",
+   "nextAction": "Hoàn thiện bảng trả lời phản biện",
+   "due": "2026-11-03",
+   "risk": "",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-002",
+   "note": "",
+   "evidence": [],
+   "history": [
+    {
+     "at": "2026-08-04T09:00:00.000Z",
+     "by": "u-hong",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-09-03T09:00:00.000Z",
+     "by": "u-hong",
+     "text": "Trạng thái: … → Sửa bài",
+     "note": ""
+    },
+    {
+     "at": "2026-10-22T09:00:00.000Z",
+     "by": "u-hong",
+     "text": "Việc tiếp theo: Hoàn thiện bảng trả lời phản biện",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-hong",
+    "u-bao"
+   ]
+  },
+  {
+   "id": "HS-003",
+   "title": "Hành vi chấp nhận ví điện tử của người tiêu dùng Hải Phòng",
+   "shortTitle": "Ví điện tử Hải Phòng",
+   "unit": "Khoa Kinh tế",
+   "group": "Nhóm Marketing số",
+   "ownerId": "u-lananh",
+   "memberIds": [
+    "u-men"
+   ],
+   "status": "dang_phan_bien",
+   "statusSince": "2026-09-15",
+   "createdAt": "2026-08-16",
+   "createdBy": "u-lananh",
+   "updatedAt": "2026-09-15",
+   "journal": "Cogent Business & Management",
+   "quartile": "Q2",
+   "nextAction": "Theo dõi quyết định của tạp chí",
+   "due": "",
+   "risk": "",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-003",
+   "note": "",
+   "evidence": [
+    {
+     "label": "Biên nhận nộp bài",
+     "url": "https://drive.google.com/file/d/demo-hs-003",
+     "date": "2026-09-15",
+     "by": "u-lananh"
+    }
+   ],
+   "history": [
+    {
+     "at": "2026-08-16T09:00:00.000Z",
+     "by": "u-lananh",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-09-15T09:00:00.000Z",
+     "by": "u-lananh",
+     "text": "Trạng thái: … → Đang phản biện",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-lananh",
+    "u-men",
+    "u-bich"
+   ]
+  },
+  {
+   "id": "HS-004",
+   "title": "Tác động của chuyển đổi số đến hiệu quả doanh nghiệp nhỏ và vừa",
+   "shortTitle": "Chuyển đổi số DNNVV",
+   "unit": "Khoa Kinh tế",
+   "group": "",
+   "ownerId": "u-khoa",
+   "memberIds": [],
+   "status": "de_cuong",
+   "statusSince": "2026-10-05",
+   "createdAt": "2026-09-05",
+   "createdBy": "u-khoa",
+   "updatedAt": "2026-10-19",
+   "journal": "",
+   "quartile": "",
+   "nextAction": "Tìm cố vấn phương pháp",
+   "due": "2026-11-01",
+   "risk": "",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-004",
+   "note": "",
+   "evidence": [],
+   "history": [
+    {
+     "at": "2026-09-05T09:00:00.000Z",
+     "by": "u-khoa",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-10-05T09:00:00.000Z",
+     "by": "u-khoa",
+     "text": "Trạng thái: … → Đề cương",
+     "note": ""
+    },
+    {
+     "at": "2026-10-19T09:00:00.000Z",
+     "by": "u-khoa",
+     "text": "Việc tiếp theo: Tìm cố vấn phương pháp",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-khoa"
+   ]
+  },
+  {
+   "id": "HS-005",
+   "title": "Thực trạng sử dụng kháng sinh tại cơ sở y tế tuyến huyện",
+   "shortTitle": "Kháng sinh tuyến huyện",
+   "unit": "Khoa Y – Dược",
+   "group": "Nhóm Dược lâm sàng",
+   "ownerId": "u-ha",
+   "memberIds": [
+    "u-duc"
+   ],
+   "status": "tam_dung",
+   "statusSince": "2026-10-02",
+   "createdAt": "2026-09-02",
+   "createdBy": "u-ha",
+   "updatedAt": "2026-10-02",
+   "journal": "",
+   "quartile": "",
+   "nextAction": "Rà soát điều kiện tiếp tục khi bệnh viện cấp lại quyền truy cập",
+   "due": "2026-11-11",
+   "risk": "",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-005",
+   "note": "Bệnh viện đối tác tạm dừng cấp quyền truy cập hồ sơ bệnh án",
+   "evidence": [],
+   "history": [
+    {
+     "at": "2026-09-02T09:00:00.000Z",
+     "by": "u-ha",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-10-02T09:00:00.000Z",
+     "by": "u-ha",
+     "text": "Trạng thái: … → Tạm dừng",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-ha",
+    "u-duc"
+   ]
+  },
+  {
+   "id": "HS-006",
+   "title": "Chất lượng thông tin kế toán tại doanh nghiệp logistics",
+   "shortTitle": "Kế toán logistics",
+   "unit": "Khoa Kinh tế",
+   "group": "Nhóm Kế toán – Kiểm toán",
+   "ownerId": "u-men",
+   "memberIds": [
+    "u-khoa"
+   ],
+   "status": "phan_bien_nb",
+   "statusSince": "2026-09-22",
+   "createdAt": "2026-08-23",
+   "createdBy": "u-men",
+   "updatedAt": "2026-10-18",
+   "journal": "Sustainability",
+   "quartile": "Q2",
+   "nextAction": "Nhận góp ý phản biện nội bộ",
+   "due": "2026-10-26",
+   "risk": "",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-006",
+   "note": "",
+   "evidence": [],
+   "history": [
+    {
+     "at": "2026-08-23T09:00:00.000Z",
+     "by": "u-men",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-09-22T09:00:00.000Z",
+     "by": "u-men",
+     "text": "Trạng thái: … → Phản biện nội bộ",
+     "note": ""
+    },
+    {
+     "at": "2026-10-18T09:00:00.000Z",
+     "by": "u-men",
+     "text": "Việc tiếp theo: Nhận góp ý phản biện nội bộ",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-men",
+    "u-khoa",
+    "u-bich"
+   ]
+  },
+  {
+   "id": "HS-007",
+   "title": "Hiệu quả can thiệp dược lâm sàng trên người bệnh suy thận",
+   "shortTitle": "Dược lâm sàng suy thận",
+   "unit": "Khoa Y – Dược",
+   "group": "Nhóm Dược lâm sàng",
+   "ownerId": "u-duc",
+   "memberIds": [
+    "u-ha"
+   ],
+   "status": "du_lieu",
+   "statusSince": "2026-09-17",
+   "createdAt": "2026-08-18",
+   "createdBy": "u-duc",
+   "updatedAt": "2026-10-26",
+   "journal": "",
+   "quartile": "",
+   "nextAction": "Hoàn thành nhập liệu 200 hồ sơ bệnh án",
+   "due": "2026-11-17",
+   "risk": "Chưa rõ quyền sử dụng dữ liệu bệnh viện đối tác",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-007",
+   "note": "",
+   "evidence": [],
+   "history": [
+    {
+     "at": "2026-08-18T09:00:00.000Z",
+     "by": "u-duc",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-09-17T09:00:00.000Z",
+     "by": "u-duc",
+     "text": "Trạng thái: … → Thu thập dữ liệu",
+     "note": ""
+    },
+    {
+     "at": "2026-10-26T09:00:00.000Z",
+     "by": "u-duc",
+     "text": "Việc tiếp theo: Hoàn thành nhập liệu 200 hồ sơ bệnh án",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-duc",
+    "u-ha",
+    "u-son"
+   ]
+  },
+  {
+   "id": "HS-008",
+   "title": "Ý định khởi nghiệp của sinh viên khối kinh tế",
+   "shortTitle": "Khởi nghiệp SV",
+   "unit": "Khoa Kinh tế",
+   "group": "",
+   "ownerId": "u-lananh",
+   "memberIds": [],
+   "status": "y_tuong",
+   "statusSince": "2026-07-15",
+   "createdAt": "2026-06-15",
+   "createdBy": "u-lananh",
+   "updatedAt": "2026-08-30",
+   "journal": "",
+   "quartile": "",
+   "nextAction": "Hoàn thiện câu hỏi nghiên cứu",
+   "due": "2026-09-15",
+   "risk": "",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-008",
+   "note": "",
+   "evidence": [],
+   "history": [
+    {
+     "at": "2026-06-15T09:00:00.000Z",
+     "by": "u-lananh",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-07-15T09:00:00.000Z",
+     "by": "u-lananh",
+     "text": "Trạng thái: … → Ý tưởng",
+     "note": ""
+    },
+    {
+     "at": "2026-08-30T09:00:00.000Z",
+     "by": "u-lananh",
+     "text": "Việc tiếp theo: Hoàn thiện câu hỏi nghiên cứu",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-lananh"
+   ]
+  },
+  {
+   "id": "HS-009",
+   "title": "Mô hình giáo dục sức khỏe cho người bệnh đái tháo đường type 2",
+   "shortTitle": "GDSK đái tháo đường",
+   "unit": "Khoa Y – Dược",
+   "group": "Nhóm Y tế công cộng",
+   "ownerId": "u-ha",
+   "memberIds": [
+    "u-hong"
+   ],
+   "status": "xuat_ban",
+   "statusSince": "2026-09-15",
+   "createdAt": "2026-08-16",
+   "createdBy": "u-ha",
+   "updatedAt": "2026-09-15",
+   "journal": "Heliyon",
+   "quartile": "Q1",
+   "nextAction": "",
+   "due": "",
+   "risk": "",
+   "doi": "10.9999/demo.2026.001",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-009",
+   "note": "",
+   "evidence": [
+    {
+     "label": "Trang xuất bản chính thức",
+     "url": "https://drive.google.com/file/d/demo-hs-009",
+     "date": "2026-09-15",
+     "by": "u-ha"
+    }
+   ],
+   "history": [
+    {
+     "at": "2026-08-16T09:00:00.000Z",
+     "by": "u-ha",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-09-15T09:00:00.000Z",
+     "by": "u-ha",
+     "text": "Trạng thái: … → Xuất bản",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-ha",
+    "u-hong"
+   ]
+  },
+  {
+   "id": "HS-010",
+   "title": "Các yếu tố quyết định rủi ro tín dụng của ngân hàng thương mại cổ phần",
+   "shortTitle": "Rủi ro tín dụng NHTM",
+   "unit": "Khoa Kinh tế",
+   "group": "Nhóm Tài chính",
+   "ownerId": "u-khoa",
+   "memberIds": [
+    "u-men"
+   ],
+   "status": "bi_tu_choi",
+   "statusSince": "2026-10-16",
+   "createdAt": "2026-09-16",
+   "createdBy": "u-khoa",
+   "updatedAt": "2026-10-16",
+   "journal": "Sustainability",
+   "quartile": "Q2",
+   "nextAction": "",
+   "due": "",
+   "risk": "",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-010",
+   "note": "",
+   "evidence": [],
+   "history": [
+    {
+     "at": "2026-09-16T09:00:00.000Z",
+     "by": "u-khoa",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-10-16T09:00:00.000Z",
+     "by": "u-khoa",
+     "text": "Trạng thái: … → Bị từ chối – chờ nộp lại",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-khoa",
+    "u-men"
+   ]
+  },
+  {
+   "id": "HS-011",
+   "title": "Mô hình kê đơn kháng sinh tại bệnh viện huyện (bản thảo có sẵn)",
+   "shortTitle": "Kê đơn kháng sinh",
+   "unit": "Khoa Y – Dược",
+   "group": "Nhóm Dược lâm sàng",
+   "ownerId": "u-duc",
+   "memberIds": [],
+   "status": "viet_bai",
+   "statusSince": "2026-03-10",
+   "createdAt": "2026-02-08",
+   "createdBy": "u-duc",
+   "updatedAt": "2026-04-02",
+   "journal": "",
+   "quartile": "",
+   "nextAction": "Đăng ký chương trình cứu bản thảo",
+   "due": "",
+   "risk": "",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-011",
+   "note": "",
+   "evidence": [],
+   "history": [
+    {
+     "at": "2026-02-08T09:00:00.000Z",
+     "by": "u-duc",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-03-10T09:00:00.000Z",
+     "by": "u-duc",
+     "text": "Trạng thái: … → Viết bài",
+     "note": ""
+    },
+    {
+     "at": "2026-04-02T09:00:00.000Z",
+     "by": "u-duc",
+     "text": "Việc tiếp theo: Đăng ký chương trình cứu bản thảo",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-duc"
+   ]
+  },
+  {
+   "id": "HS-012",
+   "title": "Các yếu tố thúc đẩy ngân hàng xanh tại Việt Nam",
+   "shortTitle": "Ngân hàng xanh",
+   "unit": "Khoa Kinh tế",
+   "group": "Nhóm Tài chính",
+   "ownerId": "u-lananh",
+   "memberIds": [],
+   "status": "chap_nhan",
+   "statusSince": "2026-10-10",
+   "createdAt": "2026-09-10",
+   "createdBy": "u-lananh",
+   "updatedAt": "2026-10-10",
+   "journal": "Cogent Business & Management",
+   "quartile": "Q2",
+   "nextAction": "Kiểm tra bản in thử",
+   "due": "2026-11-16",
+   "risk": "",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-012",
+   "note": "",
+   "evidence": [
+    {
+     "label": "Thư chấp nhận",
+     "url": "https://drive.google.com/file/d/demo-hs-012",
+     "date": "2026-10-10",
+     "by": "u-lananh"
+    }
+   ],
+   "history": [
+    {
+     "at": "2026-09-10T09:00:00.000Z",
+     "by": "u-lananh",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-10-10T09:00:00.000Z",
+     "by": "u-lananh",
+     "text": "Trạng thái: … → Chấp nhận",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-lananh",
+    "u-phuong"
+   ]
+  },
+  {
+   "id": "HS-013",
+   "title": "Tự đánh giá và đánh giá của giảng viên hướng dẫn về kỹ năng lâm sàng",
+   "shortTitle": "Tự đánh giá kỹ năng LS",
+   "unit": "Khoa Y – Dược",
+   "group": "Nhóm Giáo dục y khoa",
+   "ownerId": "u-hong",
+   "memberIds": [],
+   "status": "viet_bai",
+   "statusSince": "2026-08-10",
+   "createdAt": "2026-07-11",
+   "createdBy": "u-hong",
+   "updatedAt": "2026-10-12",
+   "journal": "",
+   "quartile": "",
+   "nextAction": "Viết phần kết quả",
+   "due": "2026-12-01",
+   "risk": "",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-013",
+   "note": "",
+   "evidence": [],
+   "history": [
+    {
+     "at": "2026-07-11T09:00:00.000Z",
+     "by": "u-hong",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-08-10T09:00:00.000Z",
+     "by": "u-hong",
+     "text": "Trạng thái: … → Viết bài",
+     "note": ""
+    },
+    {
+     "at": "2026-10-12T09:00:00.000Z",
+     "by": "u-hong",
+     "text": "Việc tiếp theo: Viết phần kết quả",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-hong"
+   ]
+  },
+  {
+   "id": "HS-014",
+   "title": "Đánh giá chất lượng dịch vụ nhà thuốc cộng đồng",
+   "shortTitle": "Chất lượng nhà thuốc",
+   "unit": "Khoa Kinh tế",
+   "group": "",
+   "ownerId": "u-men",
+   "memberIds": [],
+   "status": "san_sang",
+   "statusSince": "2026-10-22",
+   "createdAt": "2026-09-22",
+   "createdBy": "u-men",
+   "updatedAt": "2026-10-22",
+   "journal": "Tạp chí Kinh tế và Dự báo",
+   "quartile": "trong_nuoc",
+   "nextAction": "Định dạng và nộp bài",
+   "due": "2026-11-02",
+   "risk": "",
+   "doi": "",
+   "docsUrl": "https://drive.google.com/drive/folders/demo-hs-014",
+   "note": "",
+   "evidence": [],
+   "history": [
+    {
+     "at": "2026-09-22T09:00:00.000Z",
+     "by": "u-men",
+     "text": "Tạo hồ sơ",
+     "note": ""
+    },
+    {
+     "at": "2026-10-22T09:00:00.000Z",
+     "by": "u-men",
+     "text": "Trạng thái: … → Sẵn sàng nộp",
+     "note": ""
+    }
+   ],
+   "readers": [
+    "u-men"
+   ]
+  }
+ ],
+ "supports": [
+  {
+   "id": "YC-001",
+   "recordId": "HS-001",
+   "type": "thong_ke",
+   "detail": "Tư vấn chọn mô hình hồi quy logistic đa biến và xử lý dữ liệu thiếu",
+   "requesterId": "u-ha",
+   "proposedSupporterId": "u-son",
+   "supporterId": "u-son",
+   "coordinatorId": "u-dp",
+   "status": "dang_xu_ly",
+   "cardId": "th-2026-thong_ke-u-ha",
+   "createdAt": "2026-10-16T09:00:00.000Z",
+   "assignedAt": "2026-10-19T10:00:00.000Z",
+   "acceptedAt": "2026-10-20T14:00:00.000Z",
+   "due": "2026-11-06",
+   "deliveredAt": "",
+   "confirmedAt": "",
+   "result": "",
+   "resultUrl": "",
+   "cancelReason": "",
+   "history": [
+    {
+     "at": "2026-10-16T09:00:00.000Z",
+     "by": "u-ha",
+     "text": "Gửi yêu cầu, đề xuất người hỗ trợ, dùng 1 lượt thẻ"
+    },
+    {
+     "at": "2026-10-19T10:00:00.000Z",
+     "by": "u-dp",
+     "text": "Phân công người hỗ trợ"
+    },
+    {
+     "at": "2026-10-20T14:00:00.000Z",
+     "by": "u-son",
+     "text": "Nhận việc"
+    }
+   ],
+   "readers": [
+    "u-ha",
+    "u-duc",
+    "u-son"
+   ]
+  },
+  {
+   "id": "YC-002",
+   "recordId": "HS-002",
+   "type": "tra_loi",
+   "detail": "Góp ý phương pháp cho bản trả lời phản biện 2",
+   "requesterId": "u-hong",
+   "proposedSupporterId": "u-bao",
+   "supporterId": "u-bao",
+   "coordinatorId": "u-dp",
+   "status": "dang_xu_ly",
+   "cardId": "",
+   "createdAt": "2026-10-08T09:00:00.000Z",
+   "assignedAt": "2026-10-10T10:00:00.000Z",
+   "acceptedAt": "2026-10-10T14:00:00.000Z",
+   "due": "2026-10-31",
+   "deliveredAt": "",
+   "confirmedAt": "",
+   "result": "",
+   "resultUrl": "",
+   "cancelReason": "",
+   "history": [
+    {
+     "at": "2026-10-08T09:00:00.000Z",
+     "by": "u-hong",
+     "text": "Gửi yêu cầu, đề xuất người hỗ trợ"
+    },
+    {
+     "at": "2026-10-10T10:00:00.000Z",
+     "by": "u-dp",
+     "text": "Phân công người hỗ trợ"
+    },
+    {
+     "at": "2026-10-10T14:00:00.000Z",
+     "by": "u-bao",
+     "text": "Nhận việc"
+    }
+   ],
+   "readers": [
+    "u-hong",
+    "u-bao"
+   ]
+  },
+  {
+   "id": "YC-003",
+   "recordId": "HS-004",
+   "type": "y_tuong",
+   "detail": "Cần ghép cố vấn có kinh nghiệm công bố về chuyển đổi số",
+   "requesterId": "u-khoa",
+   "proposedSupporterId": "u-bao",
+   "supporterId": "",
+   "coordinatorId": "",
+   "status": "cho_duyet",
+   "cardId": "",
+   "createdAt": "2026-10-19T09:00:00.000Z",
+   "assignedAt": "",
+   "acceptedAt": "",
+   "due": "",
+   "deliveredAt": "",
+   "confirmedAt": "",
+   "result": "",
+   "resultUrl": "",
+   "cancelReason": "",
+   "history": [
+    {
+     "at": "2026-10-19T09:00:00.000Z",
+     "by": "u-khoa",
+     "text": "Gửi yêu cầu, đề xuất người hỗ trợ"
+    }
+   ],
+   "readers": [
+    "u-khoa"
+   ]
+  },
+  {
+   "id": "YC-004",
+   "recordId": "HS-006",
+   "type": "phan_bien",
+   "detail": "Phản biện nội bộ bản thảo v1.1 trước khi nộp Sustainability",
+   "requesterId": "u-men",
+   "proposedSupporterId": "u-bich",
+   "supporterId": "u-bich",
+   "coordinatorId": "u-dp",
+   "status": "dang_xu_ly",
+   "cardId": "",
+   "createdAt": "2026-09-24T09:00:00.000Z",
+   "assignedAt": "2026-09-26T10:00:00.000Z",
+   "acceptedAt": "2026-09-27T14:00:00.000Z",
+   "due": "2026-10-26",
+   "deliveredAt": "",
+   "confirmedAt": "",
+   "result": "",
+   "resultUrl": "",
+   "cancelReason": "",
+   "history": [
+    {
+     "at": "2026-09-24T09:00:00.000Z",
+     "by": "u-men",
+     "text": "Gửi yêu cầu, đề xuất người hỗ trợ"
+    },
+    {
+     "at": "2026-09-26T10:00:00.000Z",
+     "by": "u-dp",
+     "text": "Phân công người hỗ trợ"
+    },
+    {
+     "at": "2026-09-27T14:00:00.000Z",
+     "by": "u-bich",
+     "text": "Nhận việc"
+    }
+   ],
+   "readers": [
+    "u-men",
+    "u-khoa",
+    "u-bich"
+   ]
+  },
+  {
+   "id": "YC-005",
+   "recordId": "HS-012",
+   "type": "tieng_anh",
+   "detail": "Hiệu đính tiếng Anh bản sửa vòng 1",
+   "requesterId": "u-lananh",
+   "proposedSupporterId": "u-phuong",
+   "supporterId": "u-phuong",
+   "coordinatorId": "u-dp",
+   "status": "hoan_thanh",
+   "cardId": "th-2026-tieng_anh-u-lananh",
+   "createdAt": "2026-08-04T09:00:00.000Z",
+   "assignedAt": "2026-08-05T10:00:00.000Z",
+   "acceptedAt": "2026-08-05T14:00:00.000Z",
+   "due": "2026-08-25",
+   "deliveredAt": "2026-08-21T15:00:00.000Z",
+   "confirmedAt": "2026-08-23T16:00:00.000Z",
+   "result": "Bản thảo đã hiệu đính (track changes)",
+   "resultUrl": "https://drive.google.com/file/d/demo-yc-005",
+   "cancelReason": "",
+   "history": [
+    {
+     "at": "2026-08-04T09:00:00.000Z",
+     "by": "u-lananh",
+     "text": "Gửi yêu cầu, đề xuất người hỗ trợ, dùng 1 lượt thẻ"
+    },
+    {
+     "at": "2026-08-05T10:00:00.000Z",
+     "by": "u-dp",
+     "text": "Phân công người hỗ trợ"
+    },
+    {
+     "at": "2026-08-05T14:00:00.000Z",
+     "by": "u-phuong",
+     "text": "Nhận việc"
+    },
+    {
+     "at": "2026-08-21T15:00:00.000Z",
+     "by": "u-phuong",
+     "text": "Bàn giao: Bản thảo đã hiệu đính (track changes)"
+    },
+    {
+     "at": "2026-08-23T16:00:00.000Z",
+     "by": "u-lananh",
+     "text": "Xác nhận đạt"
+    }
+   ],
+   "readers": [
+    "u-lananh",
+    "u-phuong"
+   ]
+  },
+  {
+   "id": "YC-006",
+   "recordId": "HS-003",
+   "type": "tap_chi",
+   "detail": "Lập 3–5 phương án tạp chí cho bài ví điện tử",
+   "requesterId": "u-lananh",
+   "proposedSupporterId": "",
+   "supporterId": "u-bich",
+   "coordinatorId": "u-dp",
+   "status": "hoan_thanh",
+   "cardId": "",
+   "createdAt": "2026-08-18T09:00:00.000Z",
+   "assignedAt": "2026-08-21T10:00:00.000Z",
+   "acceptedAt": "2026-08-21T14:00:00.000Z",
+   "due": "2026-09-05",
+   "deliveredAt": "2026-09-09T15:00:00.000Z",
+   "confirmedAt": "2026-09-11T16:00:00.000Z",
+   "result": "Phiếu lựa chọn 4 tạp chí, mục tiêu Cogent B&M",
+   "resultUrl": "https://drive.google.com/file/d/demo-yc-006",
+   "cancelReason": "",
+   "history": [
+    {
+     "at": "2026-08-18T09:00:00.000Z",
+     "by": "u-lananh",
+     "text": "Gửi yêu cầu"
+    },
+    {
+     "at": "2026-08-21T10:00:00.000Z",
+     "by": "u-dp",
+     "text": "Phân công người hỗ trợ"
+    },
+    {
+     "at": "2026-08-21T14:00:00.000Z",
+     "by": "u-bich",
+     "text": "Nhận việc"
+    },
+    {
+     "at": "2026-09-09T15:00:00.000Z",
+     "by": "u-bich",
+     "text": "Bàn giao: Phiếu lựa chọn 4 tạp chí, mục tiêu Cogent B&M"
+    },
+    {
+     "at": "2026-09-11T16:00:00.000Z",
+     "by": "u-lananh",
+     "text": "Xác nhận đạt"
+    }
+   ],
+   "readers": [
+    "u-lananh",
+    "u-men",
+    "u-bich"
+   ]
+  },
+  {
+   "id": "YC-007",
+   "recordId": "HS-010",
+   "type": "nop_lai",
+   "detail": "Tư vấn chọn tạp chí dự phòng sau khi bị từ chối",
+   "requesterId": "u-khoa",
+   "proposedSupporterId": "",
+   "supporterId": "",
+   "coordinatorId": "",
+   "status": "cho_duyet",
+   "cardId": "",
+   "createdAt": "2026-10-27T09:00:00.000Z",
+   "assignedAt": "",
+   "acceptedAt": "",
+   "due": "",
+   "deliveredAt": "",
+   "confirmedAt": "",
+   "result": "",
+   "resultUrl": "",
+   "cancelReason": "",
+   "history": [
+    {
+     "at": "2026-10-27T09:00:00.000Z",
+     "by": "u-khoa",
+     "text": "Gửi yêu cầu"
+    }
+   ],
+   "readers": [
+    "u-khoa",
+    "u-men"
+   ]
+  },
+  {
+   "id": "YC-008",
+   "recordId": "HS-001",
+   "type": "tieng_anh",
+   "detail": "Hiệu đính tiếng Anh phần giới thiệu và phương pháp",
+   "requesterId": "u-ha",
+   "proposedSupporterId": "u-phuong",
+   "supporterId": "u-phuong",
+   "coordinatorId": "u-dp",
+   "status": "cho_xac_nhan",
+   "cardId": "th-2026-tieng_anh-u-ha",
+   "createdAt": "2026-10-12T09:00:00.000Z",
+   "assignedAt": "2026-10-13T10:00:00.000Z",
+   "acceptedAt": "2026-10-14T14:00:00.000Z",
+   "due": "2026-10-27",
+   "deliveredAt": "2026-10-26T15:00:00.000Z",
+   "confirmedAt": "",
+   "result": "Bản hiệu đính phần giới thiệu và phương pháp",
+   "resultUrl": "https://drive.google.com/file/d/demo-yc-008",
+   "cancelReason": "",
+   "history": [
+    {
+     "at": "2026-10-12T09:00:00.000Z",
+     "by": "u-ha",
+     "text": "Gửi yêu cầu, đề xuất người hỗ trợ, dùng 1 lượt thẻ"
+    },
+    {
+     "at": "2026-10-13T10:00:00.000Z",
+     "by": "u-dp",
+     "text": "Phân công người hỗ trợ"
+    },
+    {
+     "at": "2026-10-14T14:00:00.000Z",
+     "by": "u-phuong",
+     "text": "Nhận việc"
+    },
+    {
+     "at": "2026-10-26T15:00:00.000Z",
+     "by": "u-phuong",
+     "text": "Bàn giao: Bản hiệu đính phần giới thiệu và phương pháp"
+    }
+   ],
+   "readers": [
+    "u-ha",
+    "u-duc",
+    "u-phuong"
+   ]
+  },
+  {
+   "id": "YC-009",
+   "recordId": "HS-007",
+   "type": "thong_ke",
+   "detail": "Tính cỡ mẫu và kế hoạch phân tích cho nghiên cứu can thiệp",
+   "requesterId": "u-duc",
+   "proposedSupporterId": "u-son",
+   "supporterId": "u-son",
+   "coordinatorId": "u-dp",
+   "status": "cho_nhan",
+   "cardId": "th-2026-thong_ke-u-duc",
+   "createdAt": "2026-10-25T09:00:00.000Z",
+   "assignedAt": "2026-10-27T10:00:00.000Z",
+   "acceptedAt": "",
+   "due": "2026-11-09",
+   "deliveredAt": "",
+   "confirmedAt": "",
+   "result": "",
+   "resultUrl": "",
+   "cancelReason": "",
+   "history": [
+    {
+     "at": "2026-10-25T09:00:00.000Z",
+     "by": "u-duc",
+     "text": "Gửi yêu cầu, đề xuất người hỗ trợ, dùng 1 lượt thẻ"
+    },
+    {
+     "at": "2026-10-27T10:00:00.000Z",
+     "by": "u-dp",
+     "text": "Phân công người hỗ trợ"
+    }
+   ],
+   "readers": [
+    "u-duc",
+    "u-ha",
+    "u-son"
+   ]
+  },
+  {
+   "id": "YC-010",
+   "recordId": "HS-005",
+   "type": "dao_duc",
+   "detail": "Hỗ trợ thủ tục gia hạn quyền truy cập dữ liệu",
+   "requesterId": "u-ha",
+   "proposedSupporterId": "",
+   "supporterId": "",
+   "coordinatorId": "",
+   "status": "huy",
+   "cardId": "",
+   "createdAt": "2026-10-03T09:00:00.000Z",
+   "assignedAt": "",
+   "acceptedAt": "",
+   "due": "",
+   "deliveredAt": "",
+   "confirmedAt": "",
+   "result": "",
+   "resultUrl": "",
+   "cancelReason": "Bệnh viện đã tự gia hạn, không cần hỗ trợ",
+   "history": [
+    {
+     "at": "2026-10-03T09:00:00.000Z",
+     "by": "u-ha",
+     "text": "Gửi yêu cầu"
+    },
+    {
+     "at": "2026-10-05T09:00:00.000Z",
+     "by": "u-ha",
+     "text": "Hủy: bệnh viện đã tự gia hạn, không cần hỗ trợ"
+    }
+   ],
+   "readers": [
+    "u-ha",
+    "u-duc"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "th-2026-thong_ke-u-dp",
+   "holderId": "u-dp",
+   "type": "thong_ke",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-dp"
+   ]
+  },
+  {
+   "id": "th-2026-tieng_anh-u-dp",
+   "holderId": "u-dp",
+   "type": "tieng_anh",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-dp"
+   ]
+  },
+  {
+   "id": "th-2026-thong_ke-u-ha",
+   "holderId": "u-ha",
+   "type": "thong_ke",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-ha"
+   ]
+  },
+  {
+   "id": "th-2026-tieng_anh-u-ha",
+   "holderId": "u-ha",
+   "type": "tieng_anh",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-ha"
+   ]
+  },
+  {
+   "id": "th-2026-thong_ke-u-son",
+   "holderId": "u-son",
+   "type": "thong_ke",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-son"
+   ]
+  },
+  {
+   "id": "th-2026-tieng_anh-u-son",
+   "holderId": "u-son",
+   "type": "tieng_anh",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-son"
+   ]
+  },
+  {
+   "id": "th-2026-thong_ke-u-duc",
+   "holderId": "u-duc",
+   "type": "thong_ke",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-duc"
+   ]
+  },
+  {
+   "id": "th-2026-tieng_anh-u-duc",
+   "holderId": "u-duc",
+   "type": "tieng_anh",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-duc"
+   ]
+  },
+  {
+   "id": "th-2026-thong_ke-u-hong",
+   "holderId": "u-hong",
+   "type": "thong_ke",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-hong"
+   ]
+  },
+  {
+   "id": "th-2026-tieng_anh-u-hong",
+   "holderId": "u-hong",
+   "type": "tieng_anh",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-hong"
+   ]
+  },
+  {
+   "id": "th-2026-thong_ke-u-bao",
+   "holderId": "u-bao",
+   "type": "thong_ke",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-bao"
+   ]
+  },
+  {
+   "id": "th-2026-tieng_anh-u-bao",
+   "holderId": "u-bao",
+   "type": "tieng_anh",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-bao"
+   ]
+  },
+  {
+   "id": "th-2026-thong_ke-u-lananh",
+   "holderId": "u-lananh",
+   "type": "thong_ke",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-lananh"
+   ]
+  },
+  {
+   "id": "th-2026-tieng_anh-u-lananh",
+   "holderId": "u-lananh",
+   "type": "tieng_anh",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-lananh"
+   ]
+  },
+  {
+   "id": "th-2026-thong_ke-u-khoa",
+   "holderId": "u-khoa",
+   "type": "thong_ke",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-khoa"
+   ]
+  },
+  {
+   "id": "th-2026-tieng_anh-u-khoa",
+   "holderId": "u-khoa",
+   "type": "tieng_anh",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-khoa"
+   ]
+  },
+  {
+   "id": "th-2026-thong_ke-u-men",
+   "holderId": "u-men",
+   "type": "thong_ke",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-men"
+   ]
+  },
+  {
+   "id": "th-2026-tieng_anh-u-men",
+   "holderId": "u-men",
+   "type": "tieng_anh",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-men"
+   ]
+  },
+  {
+   "id": "th-2026-thong_ke-u-bich",
+   "holderId": "u-bich",
+   "type": "thong_ke",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-bich"
+   ]
+  },
+  {
+   "id": "th-2026-tieng_anh-u-bich",
+   "holderId": "u-bich",
+   "type": "tieng_anh",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-bich"
+   ]
+  },
+  {
+   "id": "th-2026-thong_ke-u-phuong",
+   "holderId": "u-phuong",
+   "type": "thong_ke",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-phuong"
+   ]
+  },
+  {
+   "id": "th-2026-tieng_anh-u-phuong",
+   "holderId": "u-phuong",
+   "type": "tieng_anh",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-phuong"
+   ]
+  },
+  {
+   "id": "th-2026-thong_ke-u-vinh",
+   "holderId": "u-vinh",
+   "type": "thong_ke",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-vinh"
+   ]
+  },
+  {
+   "id": "th-2026-tieng_anh-u-vinh",
+   "holderId": "u-vinh",
+   "type": "tieng_anh",
+   "year": "2026",
+   "quota": 2,
+   "issuedAt": "2026-08-29",
+   "issuedBy": "u-admin",
+   "readers": [
+    "u-vinh"
+   ]
+  }
+ ],
+ "ratings": [
+  {
+   "id": "dg-YC-005",
+   "supportId": "YC-005",
+   "supporterId": "u-phuong",
+   "stars": 5,
+   "comment": "Hiệu đính kỹ, đúng hạn.",
+   "by": "u-lananh",
+   "at": "2026-08-23T16:00:00.000Z",
+   "readers": []
+  },
+  {
+   "id": "dg-YC-006",
+   "supportId": "YC-006",
+   "supporterId": "u-bich",
+   "stars": 4,
+   "comment": "Phương án hợp lý, bàn giao trễ 4 ngày.",
+   "by": "u-lananh",
+   "at": "2026-09-11T16:00:00.000Z",
+   "readers": []
+  }
+ ],
+ "notices": [
+  {
+   "readers": [],
+   "id": "tb-01",
+   "kind": "van_ban",
+   "title": "Kế hoạch thúc đẩy NCKH và công bố của giảng viên giai đoạn 2026–2028",
+   "body": "Kế hoạch nêu mục tiêu, chỉ tiêu, quy trình hỗ trợ bản thảo và cơ chế hỗ trợ. Giảng viên đọc mục 5.3 (đầu mối hỗ trợ một cửa) và Phụ lục 3 (trạng thái hồ sơ).",
+   "url": "",
+   "pinned": true,
+   "publishedAt": "2026-09-28",
+   "by": "u-admin"
+  },
+  {
+   "readers": [],
+   "id": "tb-02",
+   "kind": "huong_dan",
+   "title": "Hướng dẫn sử dụng Cổng hỗ trợ và quản lý nghiên cứu",
+   "body": "1. Cập nhật lý lịch khoa học (ORCID, lĩnh vực).\n2. Tạo hồ sơ cho từng nghiên cứu / bản thảo, mời thành viên nhóm.\n3. Mỗi khi có tiến triển: bấm “Cập nhật tiến độ” (dưới 2 phút).\n4. Cần giúp: “Gửi yêu cầu hỗ trợ”, có thể đề xuất người hỗ trợ còn suất.\n5. Khi người hỗ trợ bàn giao: xác nhận và chấm sao.",
+   "url": "",
+   "pinned": false,
+   "publishedAt": "2026-09-30",
+   "by": "u-admin"
+  },
+  {
+   "readers": [],
+   "id": "tb-03",
+   "kind": "bieu_mau",
+   "title": "Phiếu lựa chọn và sàng lọc tạp chí (Phụ lục 2)",
+   "body": "Dùng trước khi nộp bài và trước khi đề nghị hỗ trợ kinh phí. Tổng 22 điểm; kết luận Ưu tiên / Có điều kiện / Không đề xuất.",
+   "url": "",
+   "pinned": false,
+   "publishedAt": "2026-10-08",
+   "by": "u-dp"
+  },
+  {
+   "readers": [],
+   "id": "tb-04",
+   "kind": "thong_bao",
+   "title": "Trại viết bài khoa học đợt 2 (tháng 11/2026)",
+   "body": "Đăng ký theo nhóm, mang bản thảo đã có kết quả. Có mentor phương pháp và biên tập viên tiếng Anh.",
+   "url": "",
+   "pinned": false,
+   "publishedAt": "2026-10-23",
+   "by": "u-dp"
+  }
+ ],
+ "notifications": [
+  {
+   "id": "n-1",
+   "userId": "u-ha",
+   "readers": [
+    "u-ha"
+   ],
+   "text": "YC-008: đã bàn giao kết quả — mời xác nhận",
+   "href": "#/ho-tro/YC-008",
+   "at": "2026-10-26T11:00:00.000Z",
+   "read": false
+  },
+  {
+   "id": "n-2",
+   "userId": "u-ha",
+   "readers": [
+    "u-ha"
+   ],
+   "text": "Bạn được cấp 2 lượt thẻ “Thống kê – phân tích” năm 2026",
+   "href": "#/the-ho-tro",
+   "at": "2026-08-29T11:00:00.000Z",
+   "read": true
+  },
+  {
+   "id": "n-3",
+   "userId": "u-son",
+   "readers": [
+    "u-son"
+   ],
+   "text": "YC-009: TS. Bùi Thanh Sơn được phân công hỗ trợ “Thống kê – phân tích”",
+   "href": "#/ho-tro/YC-009",
+   "at": "2026-10-27T11:00:00.000Z",
+   "read": false
+  },
+  {
+   "id": "n-4",
+   "userId": "u-dp",
+   "readers": [
+    "u-dp"
+   ],
+   "text": "Yêu cầu mới YC-007: Nộp lại sau từ chối — cần phân công",
+   "href": "#/ho-tro/YC-007",
+   "at": "2026-10-27T11:00:00.000Z",
+   "read": false
+  },
+  {
+   "id": "n-5",
+   "userId": "u-dp",
+   "readers": [
+    "u-dp"
+   ],
+   "text": "Yêu cầu mới YC-003: Phát triển ý tưởng — cần phân công",
+   "href": "#/ho-tro/YC-003",
+   "at": "2026-10-19T11:00:00.000Z",
+   "read": true
+  },
+  {
+   "id": "n-6",
+   "userId": "u-admin",
+   "readers": [
+    "u-admin"
+   ],
+   "text": "ThS. Tạ Quang Vinh đăng ký làm người hỗ trợ — cần duyệt",
+   "href": "#/quan-tri?tab=nguoi-ho-tro",
+   "at": "2026-10-26T11:00:00.000Z",
+   "read": false
+  }
+ ],
+ "log": [
+  {
+   "id": "l-1",
+   "at": "2026-08-29T09:00:00.000Z",
+   "by": "u-admin",
+   "text": "Cấp 26 thẻ hỗ trợ năm 2026 (thống kê, hiệu đính)",
+   "href": "",
+   "readers": []
+  },
+  {
+   "id": "l-2",
+   "at": "2026-10-19T09:00:00.000Z",
+   "by": "u-khoa",
+   "text": "Gửi yêu cầu YC-003",
+   "href": "#/ho-tro/YC-003",
+   "readers": []
+  },
+  {
+   "id": "l-3",
+   "at": "2026-10-27T09:00:00.000Z",
+   "by": "u-khoa",
+   "text": "Gửi yêu cầu YC-007",
+   "href": "#/ho-tro/YC-007",
+   "readers": []
+  }
+ ]
+}
